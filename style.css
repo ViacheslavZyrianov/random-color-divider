@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100vh;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.random-color-divider {
+  width: 600px;
+  height: 600px;
+}
+
+.random-color-divider,
+.random-color-divider div {
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
